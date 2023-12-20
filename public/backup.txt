@@ -1,0 +1,277 @@
+  $existingOrder = OrderDetail::where('user_id', $user)->first();
+
+        // $token = $existingOrder->payment_id;
+        // dd($token);
+        if ($existingOrder && isset($existingOrder->payment_id)) {
+            $existingOrder = OrderDetail::where('payment_id', $existingOrder->payment_id)->first();
+            return response()->json(['message' => 'Payment already completed']);
+        } else {
+
+            $total_sum = 0; // Initialize total
+            $product_ids = []; // Initialize product_ids as an empty array
+            $quantity = [];
+            foreach ($get_cart as $item) {
+                $total_sum += $item->quantity * $item->price; // Add to total
+                $product_ids[] = $item->product_id; // Add product_id to the array
+                $quantity = $item->quantity;
+            }
+
+            $payment_id = Str::Random(10);
+
+            $userId = $user;
+            $total = $total_sum;
+            $quantity = "1";
+            $productId = implode(',', $product_ids);
+            $price =
+
+            // Create a new order detail
+            $orderDetail = OrderDetail::create([
+                'user_id' => $userId,
+                'total' => $total,
+                'payment_id' => $payment_id, // Assuming the payment id is in the response
+            ]);
+
+            // dd($orderDetail);
+            // Create a new order item
+            OrderItem::create([
+                'order_id' => $orderDetail->id,
+                'quantity' => $quantity,
+                'product_id' => $productId,
+            ]);
+
+            // $order = OrderItem::all();
+            // dd($order);
+
+            // Create a new payment detail
+            PaymentDetail::create([
+                'order_id' => $orderDetail->id,
+                'price' => $total,
+                'status' => "1",
+            ]);
+            $delete_row = Cart::where('user_id', $user)->delete();
+
+            // dd($delete_row);s
+
+            // dd("vbvb");
+        }
+        
+    }
+
+    // $payment = Order::select('orders.*', 'users.name as user_name', 'products.name as product_name', 'products.id')
+        //     ->join('products', 'orders.product_id', '=', 'products.id')
+        //     ->join('users', 'orders.user_id', '=', 'users.id')->get();
+
+        //     $payment = Order::select('orders.*', 'users.name',
+        //         DB::raw('GROUP_CONCAT(products.name) AS ProductNames'),
+        //         DB::raw('GROUP_CONCAT(products.id) AS ProductIDs'))
+        //         ->join('users', 'orders.user_id', '=', 'users.id')
+        //         ->join('products', function ($join) {
+        //             $join->whereRaw('FIND_IN_SET(products.id, orders.product_id)');
+        //         })
+
+        // ->groupBy('orders.id')
+        // ->get();
+
+        // $client_id = 'AY-9F1CQO2vXBFBbGC-9WsT1GFohiKtc25L8U2P_ZObCrkyw1Q0rM6RsNoo1L27xy0R6ow7lYzljYtHr';
+        // $secret = 'EMIZLR8HMRIy-DMzOGKm5ejXduMkUelz3Gb-mL_sRBV2n7AshPEKreVRp1ozUakJJBJ1ydlcTr3M5epB';
+
+        // $encoded_auth = base64_encode($client_id . ':' . $secret);
+        // $today = date("Y-m-d");
+        // // $start_date = $today . "T00:00:00Z";
+        // // $end_date = $today . "T23:59:59Z";
+
+        // $order_id = "34R504318E675793L";
+
+        // // $response = Http::withHeaders([
+        // //     'Content-Type' => 'application/json',
+        // //     'Authorization' => 'Basic ' . $encoded_auth,
+        // // ])->get("https://api-m.sandbox.paypal.com/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info&transaction_id={$order_id}", [
+        // //     'start_date' => '2023-12-01T00:00:00Z',
+        // //     'end_date' => '2023-12-31T23:59:59Z',
+        // // ]);
+
+        // $bn_code='FLAVORsb-mnlme28649302_MP';
+        // $response = Http::withHeaders([
+        //     'Content-Type' => 'application/json',
+        //     'Authorization' => 'Basic ' . $encoded_auth,
+        // ])->get("https://api-m.sandbox.paypal.com/v1/reporting/transactions?fields=transaction_info,payer_info,shipping_info,auction_info,cart_info,incentive_info,store_info", [
+        //     'start_date' => '2023-12-01T00:00:00Z',
+        //     'end_date' => '2023-12-31T23:59:59Z',
+        // ]);
+        // if ($response->getBody()) {
+        //     $data = $response->getBody();
+
+        //     $jsonData = json_decode($data, true);
+        //     // dd($jsonData);
+
+        //     if (json_last_error() === JSON_ERROR_NONE) {
+        //         // Data is in valid JSON format.
+        //         return response()->json($jsonData);
+
+        //         return response($data);
+
+        //     } else {
+        //         // Data is not in valid JSON format.
+        //         // Handle the error as needed, e.g., log the error or throw an exception.
+        //     }
+        // }
+
+        // dd($response);
+
+        // return response()->json($response);
+
+
+
+        -----------------------------------------------------------------------------------------------***
+
+
+        *
+        setTimeout(function () {
+    document.getElementById("loading").classList.add("none");
+}, 3000);
+
+$(document).ready(function () {
+    $("#chart").hide();
+    // console.log("wdsbvsdb");
+    // var data =  $("#data").val();
+
+    // console.log(data);
+
+    $.ajax({
+        url: "/payment_data",
+        type: "GET",
+        success: function (data) {
+            console.log(data);
+            if (data) {
+                var table = "<table class='fl-table'>";
+                table +=
+                    "<tr><th>xx</th><th>Sr.No</th><th>Name</th><th>Payment</th><th>Email</th><th>Transaction Id</th><th>Status</th><th>Date</th><th>Amount</th></tr>";
+                var srNo = data.from;
+                $("th").css("color", "blue");
+                var transaction_details = data.transaction_details;
+
+                var transactions = []; // Array to store all transactions
+                var srNo = 1;
+                $.each(transaction_details, function (index, transaction) {
+                    var transaction_info = transaction.transaction_info;
+                    var payer_info = transaction.payer_info;
+                    var transaction_id = transaction_info.transaction_id;
+                    var transaction_status =
+                        transaction_info.transaction_status;
+                    var transaction_updated_date =
+                        transaction_info.transaction_updated_date;
+                    var transaction_amount =
+                        transaction_info.transaction_amount;
+                    var amount = transaction_amount.value;
+                    var number = amount;
+                    var positiveNumber = Math.abs(number);
+
+                    var account_id = payer_info.account_id;table +=
+                            "<tr class='child-row' style='display: none;'>";
+                        table +=
+                            "<td colspan='8'>Child row content goes here</td>";
+                            table +=
+                            "<td class='alternate_full_name'>" +
+                            alternate_full_name +
+                            "</td>";
+                    var email_address = payer_info.email_address;
+                    var alternate_full_name =
+                        payer_info.payer_name.alternate_full_name;
+
+                    var reference_id = transaction_info.paypal_reference_id;
+
+                    // Check if alternate_full_name is undefined
+                    if (typeof alternate_full_name === "undefined") {
+                        alternate_full_name = "Partner"; // Set a default value
+                    }
+                    if (typeof email_address === "undefined") {
+                        email_address = "sb-mnlme28649302@business.example.com"; // default value
+                    }
+                    if (typeof account_id === "undefined") {
+                        account_id = "xxxxxxxxxxx"; // Set a default value
+                    }
+
+                    // Create an object for the current transaction
+                    var currentTransaction = {
+                        id: transaction_id,
+                        status: transaction_status,
+                        updatedDate: transaction_updated_date,
+                        amount: positiveNumber,
+                        accountId: account_id,
+                        emailAddress: email_address,
+                        alternateFullName: alternate_full_name,
+                        reference:reference_id,
+                    };
+
+                    // Add the current transaction to the transactions array
+                    transactions.push(currentTransaction);
+
+                    console.log(currentTransaction);
+
+                    // Determine the payment type
+                    var paymentType =
+                        alternate_full_name === "Partner"
+                            ? "Withdraw to"
+                            : "Payment from";
+
+                    // Add the parent row to the table
+                    if (alternate_full_name != "Partner") {
+                        table += "<tr>";
+                        table +=
+                            "<td><button class='toggle-rows'>+</button></td>"; // Add a "+" button to the parent row
+                        table += "<td>" + srNo + "</td>";
+                        table +=
+                            "<td class='alternate_full_name'>" +
+                            alternate_full_name +
+                            "</td>";
+                        table += "<td>" + paymentType + "</td>";
+                        table += "<td>" + email_address + "</td>";
+                        table += "<td>" + transaction_id + "</td>";
+                        table += "<td>" + "Completed" + "</td>";
+                        table += "<td>" + transaction_updated_date + "</td>";
+                        table += "<td> $" + positiveNumber + "</td>";
+                        table += "</tr>";
+
+
+                        
+            
+                        // Add a hidden child row after each parent row
+                        if( alternate_full_name == "Partner"){
+                        table +=
+                            "<tr class='child-row' style='display: none;'>";
+                        table +=
+                            "<td colspan='8'>Child row content goes here</td>";
+                            table +=
+                            "<td class='alternate_full_name'>" +
+                            alternate_full_name +
+                            "</td>";
+                        table += "<td>" + paymentType + "</td>";
+                        table += "<td>" + email_address + "</td>";
+                        table += "<td>" + transaction_id + "</td>";
+                        table += "<td>" + "Completed" + "</td>";
+                        table += "<td>" + transaction_updated_date + "</td>";
+                        table += "<td> $" + positiveNumber + "</td>";
+                        table += "</tr>";
+                        }
+                    }
+
+                    srNo++;
+                });
+
+                table += "</table>";
+                // Add the table to the page (you might need to adjust the selector to match your page structure)
+                $("#responseContainer").append(table);
+
+                // Add a click event listener to the "+" buttons
+                $(".toggle-rows").click(function () {
+                    $(this).closest("tr").next(".child-row").toggle();
+                });
+
+                
+
+                console.log(transactions);
+            }
+            // $("#responseContainer").html(table);    
+        },
+    });
+});
