@@ -77,11 +77,13 @@
                                 <div id="start"><label for="startDate">Start Date</label>
                                     <input id="startDate" name="startDate" type="text" class="form-control"
                                         placeholder="MM/DD/YYYY" />
+                                        <span id="start_error" style="color:red"></span>
                                 </div>
 
                                 <div id="end"><label for="endDate">End Date</label>
                                     <input id="endDate" name="endDate" type="text" class="form-control"
                                         placeholder="MM/DD/YYYY" />
+                                        <span id="end_error"style="color:red"></span>
                                     <button id="apply" class="btn btn-success"><span>Apply</span></button>
                                 </div>
 

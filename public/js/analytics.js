@@ -143,39 +143,41 @@ $(document).ready(function () {
             //     0, 0, 0, 0, 6, 0, 0, 34, 52, 8, 0, 0, 0, 0,
             // ];
 
-            var ctx = document.getElementById('myChart').getContext('2d');
+            var ctx = document.getElementById("myChart").getContext("2d");
             var myChart = new Chart(ctx, {
-                type: 'line',
+                type: "line",
                 data: {
                     labels: dates,
-                    datasets: [{
-                        label: 'My Dataset',
-                        data: [
-                             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                            0, 0, 0, 0, 6, 0, 0, 34, 52, 8, 0, 0, 0, 0,0,
-                        ],
-                        borderColor: 'rgba(75, 192, 192, 1)',
-                        borderWidth: 4,
-                        tension: 0.4
-                    }]
+                    datasets: [
+                        {
+                            label: "My Dataset",
+                            data: [
+                                0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 6, 0, 0, 34, 52, 8, 0, 0, 0, 0, 0,
+                            ],
+                            borderColor: "rgba(75, 192, 192, 1)",
+                            borderWidth: 4,
+                            tension: 0.4,
+                        },
+                    ],
                 },
                 options: {
                     plugins: {
-                        legend: false // Hide legend
+                        legend: false, // Hide legend
                     },
                     scales: {
                         x: {
                             grid: {
-                                display: false
-                            }
+                                display: false,
+                            },
                         },
                         y: {
                             grid: {
-                                display: false
-                            }
-                        }
-                    }
-                }
+                                display: false,
+                            },
+                        },
+                    },
+                },
             });
         },
     });
@@ -183,23 +185,27 @@ $(document).ready(function () {
         var sd = new Date(),
             ed = new Date();
 
-            $("#startDate").datepicker({
+        $("#startDate")
+            .datepicker({
                 pickTime: false,
                 format: "YYYY/MM/DD",
                 defaultDate: sd,
                 maxDate: ed,
-            }).keydown(function(e) {
+            })
+            .keydown(function (e) {
                 e.preventDefault();
             });
 
-        $("#endDate").datepicker({
-            pickTime: false,
-            format: "YYYY/MM/DD",
-            defaultDate: ed,
-            maxDate: ed,
-        }).keydown(function(e) {
-            e.preventDefault();
-        });
+        $("#endDate")
+            .datepicker({
+                pickTime: false,
+                format: "YYYY/MM/DD",
+                defaultDate: ed,
+                maxDate: ed,
+            })
+            .keydown(function (e) {
+                e.preventDefault();
+            });
 
         var start_date;
         $("#startDate").change(function () {
@@ -229,14 +235,28 @@ $(document).ready(function () {
             var differenceInDays = differenceInTime / (1000 * 3600 * 24);
 
             console.log(differenceInDays);
-            // if(start_date == ""){
-            //     console.log("error");
-            //     $("#chartjs").empty();
-            //     $("#chartjs").append(
-            //         '<div class="alert alert-danger" id="error" role="alert">Please Select the start date</div>'
-            //     );
-            //     return false;
-            // }
+            var check1 = $("#startDate").val();
+            var check2 = $("#endDate").val();
+
+            if (check1 == "") {
+                $("#chartjs").empty();
+                $("#chartjs").append(
+                    '<div class="alert alert-danger" id="error" role="alert">Please set the start date !</div>'
+                );
+                return false;
+            } else {
+                $("#start_error").remove();
+            }
+            if (check2 == "") {
+                $("#chartjs").empty();
+                $("#chartjs").append(
+                    '<div class="alert alert-danger" id="error" role="alert">Please set the end date !</div>'
+                );
+                return false;
+            } else {
+                $("#end_error").remove();
+            }
+            console.log(check1);
 
             if (differenceInDays < 0) {
                 console.log("error");
@@ -254,8 +274,6 @@ $(document).ready(function () {
                 );
                 return false;
             }
-
-
 
             if (start_date && end_date && differenceInDays <= 30) {
                 $("#myChart").remove();
@@ -431,37 +449,41 @@ $(document).ready(function () {
                             .getElementById("myChart")
                             .getContext("2d");
 
-                            var ctx = document.getElementById('myChart').getContext('2d');
-                            var myChart = new Chart(ctx, {
-                                type: 'line',
-                                data: {
-                                    labels: dates,
-                                    datasets: [{
-                                        label: 'My Dataset',
-                                        data:counts,
-                                        borderColor: 'rgba(75, 192, 192, 1)',
+                        var ctx = document
+                            .getElementById("myChart")
+                            .getContext("2d");
+                        var myChart = new Chart(ctx, {
+                            type: "line",
+                            data: {
+                                labels: dates,
+                                datasets: [
+                                    {
+                                        label: "My Dataset",
+                                        data: counts,
+                                        borderColor: "rgba(75, 192, 192, 1)",
                                         borderWidth: 4,
-                                        tension: 0.4
-                                    }]
-                                },
-                                options: {
-                                    plugins: {
-                                        legend: false // Hide legend
+                                        tension: 0.4,
                                     },
-                                    scales: {
-                                        x: {
-                                            grid: {
-                                                display: false
-                                            }
+                                ],
+                            },
+                            options: {
+                                plugins: {
+                                    legend: false, // Hide legend
+                                },
+                                scales: {
+                                    x: {
+                                        grid: {
+                                            display: false,
                                         },
-                                        y: {
-                                            grid: {
-                                                display: false
-                                            }
-                                        }
-                                    }
-                                }
-                            });
+                                    },
+                                    y: {
+                                        grid: {
+                                            display: false,
+                                        },
+                                    },
+                                },
+                            },
+                        });
                     },
                 });
             } else {
