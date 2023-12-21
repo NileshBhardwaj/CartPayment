@@ -76,7 +76,19 @@ class CartController extends Controller
     public function remove_cart(Request $request)
     {
 
+        // dd($request->all());
 
+        $id = $request->id;
+        $quan = $request->quantity;
+
+        if(! empty($id && $quan))
+        {
+            $user = Auth::user()->id;
+            $delete_row = Cart::where('user_id', $user)->where('product_id',$id)->where('quantity',$quan)->delete();
+            return response()->json('removed');
+
+
+        }
         
         // $order_id = Session::get('id');
       

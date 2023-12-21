@@ -229,6 +229,14 @@ $(document).ready(function () {
             var differenceInDays = differenceInTime / (1000 * 3600 * 24);
 
             console.log(differenceInDays);
+            // if(start_date == ""){
+            //     console.log("error");
+            //     $("#chartjs").empty();
+            //     $("#chartjs").append(
+            //         '<div class="alert alert-danger" id="error" role="alert">Please Select the start date</div>'
+            //     );
+            //     return false;
+            // }
 
             if (differenceInDays < 0) {
                 console.log("error");
@@ -238,6 +246,16 @@ $(document).ready(function () {
                 );
                 return false;
             }
+            if (start_date == end_date) {
+                console.log("error");
+                $("#chartjs").empty();
+                $("#chartjs").append(
+                    '<div class="alert alert-danger" id="error" role="alert">Please Select a range of dates!</div>'
+                );
+                return false;
+            }
+
+
 
             if (start_date && end_date && differenceInDays <= 30) {
                 $("#myChart").remove();

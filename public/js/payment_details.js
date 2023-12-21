@@ -15,10 +15,7 @@ $(document).ready(function () {
         success: function (data) {
             // console.log(data);
             if (data) {
-                var table = "<table>";
-                
-                table +=
-                    "<tr><th></th><th>Sr.No</th><th>Name</th><th>Payment</th><th>Email</th><th>Transaction Id</th><th>Status</th><th>Date</th><th>PayPal Fee</th><th>Amount</th></tr>";
+                var table = $("#responsecontainer").html();
                 var srNo = data.from;
                 // $("th").css("color", "blue");
                 var transaction_details = data.transaction_details;
@@ -27,10 +24,13 @@ $(document).ready(function () {
 
                 var transactions = []; // Array to store all transactions
                 var srNo = 1;
-                var partnerTransactions =[];
+                var partnerTransactions = [];
                 var charges = [];
                 var value;
                 var positive;
+                var templateRow = $("#responseContainer .bho").detach();
+                var childrow1 = $("#responseContainer .child-row").detach();
+                var childRow;
                 $.each(transaction_details, function (index, transaction) {
                     var transaction_info = transaction.transaction_info;
                     var payer_info = transaction.payer_info;
@@ -78,20 +78,16 @@ $(document).ready(function () {
                         accountId: account_id,
                         emailAddress: email_address,
                         alternateFullName: alternate_full_name,
-                        reference:reference_id,
-
+                        reference: reference_id,
                     };
                     if (alternate_full_name != "Partner") {
-
                         var fees = transaction_info.fee_amount;
-                        $.each(fees,function(){
+                        $.each(fees, function () {
                             value = fees.value;
-                             positive = Math.abs(value);
-                            console.log(positive);
-                        })
+                            positive = Math.abs(value);
+                        });
                     }
                     // var fees = transaction_info.fee_amount;
-
 
                     // Add the current transaction to the transactions array
                     transactions.push(currentTransaction);
@@ -102,100 +98,87 @@ $(document).ready(function () {
                             ? "Withdraw to"
                             : "Payment from";
 
-                            if (alternate_full_name === "Partner") {
-                                partnerTransactions.push(currentTransaction);
-                            }
-                            
-
-                            charges.push(currentTransaction)
-
-                            // console.log(partnerTransactions);
-                            // Only add the row to the table if alternate_full_name is not 'Partner'
-                    if (alternate_full_name !== "Partner") {
-                        table += "<tr>";
-                        table +=
-                            "<td><button class='toggle-rows'>+</button></td>"; 
-                        table += "<td>" + srNo + ".</td>";
-                        table +=
-                            "<td class='alternate_full_name'>" +
-                            alternate_full_name +
-                            "</td>";
-                        table += "<td>" + paymentType + "</td>";
-                        table += "<td>" + email_address + "</td>";
-                        table += "<td>" + transaction_id + "</td>";
-                        // table += "<td>" + account_id + "</td>";
-                        table += "<td>" + "Completed" + "</td>";
-                        table += "<td>" + correct + "</td>";
-                        table += "<td> - $" + positive + "</td>";
-                        table += "<td> $" + positiveNumber + "</td>";
-                        table += "</tr>";
-                        table +=
-                            "<tr class='child-row' style='display: none;'>";
-                        table +=
-                            "<td colspan='8'>Child row content goes here</td>";
-                            table +=
-                            "<td class='alternate_full_name'>" +
-                            alternate_full_name +
-                            "</td>";
-                            table += "</tr>";
-                        srNo++;
+                    if (alternate_full_name === "Partner") {
+                        partnerTransactions.push(currentTransaction);
                     }
-                    
-                   
-                });
-                console.log(charges);
 
-                table += "</table>";
-                // Add the table to the page 
-                var currentToggle = null;
+                    charges.push(currentTransaction);
+
+                    // console.log(partnerTransactions);
+                    // Only add the row to the table if alternate_full_name is not 'Partner'
+
+                    if (alternate_full_name != "Partner") {
+                        // Clone the template row
+                        var newRow = templateRow.clone();
+
+                        newRow.find(".srno").text(srNo + ".");
+                        newRow.find(".name").text(alternate_full_name);
+                        newRow.find(".payment").text(paymentType);
+                        newRow.find(".email").text(email_address);
+                        newRow.find(".transaction").text(transaction_id);
+                        newRow.find(".status").text("Completed");
+                        newRow.find(".date").text(correct);
+                        newRow.find(".paypal").text("-$" + positive);
+                        newRow.find(".amount").text("$" + positiveNumber);
+                        childRow = childrow1.clone();
+
+                        // Append the child row to the table
+                        $("#responseContainer").append(childRow);
+                        srNo++;
+                        $("#responseContainer").append(newRow);
+                    }
+                });
+                // console.log(charges);
+
+                // table += "</table>";
+                // Add the table to the page
+
                 $("#responseContainer").append(table);
 
                 // Add a click event listener to the "+" buttons
-                $(".toggle-rows").click(function () {
+                $(document).on("click", ".toggle-rows", function () {
                     var row = $(this).closest("tr");
-                    var trans_id = row.find('td:eq(5)').text();
-                    var nextRow = row.next(".child-row");
-                    if (currentToggle && currentToggle != nextRow) {
-                        currentToggle.hide();
+                    var trans_id = row.find("td:eq(5)").text();
+                    var childRow = row.next(".child-row");
+
+                    var icon = $(this).children("i");
+                    if (icon.hasClass("fa-plus")) {
+                        icon.removeClass("fa-plus");
+                        icon.addClass("fa-minus");
+                    } else {
+                        icon.removeClass("fa-minus");
+                        icon.addClass("fa-plus");
                     }
-                
-                    // Show/hide the clicked toggle
-                    nextRow.toggle();
-                
-                    // Update the current toggle
-                    currentToggle = nextRow.is(":visible") ? nextRow : null;
-                    // console.log(trans_id);
+
+                    // Toggle the visibility of the child row
+                    childRow.toggle();
                     for (var i = 0; i < partnerTransactions.length; i++) {
                         // If the trans_id matches the id of the current transaction
                         if (trans_id === partnerTransactions[i].reference) {
-                            console.log(partnerTransactions[i]);
-                
-                            // Get the child row
-                            var childRow = $(this).closest("tr").next(".child-row");
-                
-                            // Create the HTML for the child row content
-                            var childRowContent ;
-                            childRowContent += "<td>" + "" +" </td>";
-                            childRowContent += "<td>" + "" +" </td>";
-                            childRowContent += "<td>" + partnerTransactions[i].alternateFullName +" </td>";
-                            childRowContent +="<td>" + "Withdraw to" + "</td>";
-                            childRowContent += "<td>" + partnerTransactions[i].emailAddress + "</td>";
-                            childRowContent += "<td>" + partnerTransactions[i].id + "</td>";
-                            childRowContent += "<td>" + "Completed" + "</td>";
-                            childRowContent += "<td>" + partnerTransactions[i].updatedDate;
-                            childRowContent += "<td>" + "$0.00" +"</td>";
-                            childRowContent += "<td>$" + partnerTransactions[i].amount + "</td>";
-                            
-                
-                            // Set the child row content
-                            childRow.html(childRowContent);
-                
-                            break; // Exit the loop
+                            childRow
+                                .find("#name")
+                                .text(partnerTransactions[i].alternateFullName);
+                            childRow.find("#payment").text("Withdraw to");
+                            childRow
+                                .find("#email")
+                                .text(partnerTransactions[i].emailAddress);
+                            childRow
+                                .find("#transaction")
+                                .text(partnerTransactions[i].id);
+                            childRow.find("#status").text("Completed");
+                            childRow
+                                .find("#date")
+                                .text(partnerTransactions[i].updatedDate);
+                            childRow.find("#paypal").text("$0.00");
+                            childRow
+                                .find("#amount")
+                                .text("$" + partnerTransactions[i].amount);
+
+                            break;
                         }
                     }
                 });
             }
-            // $("#responseContainer").html(table);
         },
     });
 });
