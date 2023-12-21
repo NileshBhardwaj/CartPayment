@@ -149,7 +149,7 @@ $(document).ready(function () {
                         icon.removeClass("fa-minus");
                         icon.addClass("fa-plus");
                     }
-
+                    //i want to check this change in the code 
                     // Toggle the visibility of the child row
                     childRow.toggle();
                     for (var i = 0; i < partnerTransactions.length; i++) {
