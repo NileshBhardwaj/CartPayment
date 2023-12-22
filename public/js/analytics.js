@@ -151,10 +151,7 @@ $(document).ready(function () {
                     datasets: [
                         {
                             label: "My Dataset",
-                            data: [
-                                0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                                0, 0, 0, 6, 0, 0, 34, 52, 8, 0, 0, 0, 0, 0,
-                            ],
+                            data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 34, 52, 8, 0, 0, 0, 0, 0, 0, 0, 0],
                             borderColor: "rgba(75, 192, 192, 1)",
                             borderWidth: 4,
                             tension: 0.4,

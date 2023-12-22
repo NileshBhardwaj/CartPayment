@@ -32,7 +32,7 @@ class PaymentDetails extends Controller
                 CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
                 CURLOPT_CUSTOMREQUEST => 'GET',
                 CURLOPT_HTTPHEADER => array(
-                    'Authorization: Bearer A21AAL0rVDFu9_67GvDsZB5BvnRkwqPTvYeRQhqL2bPwUuari2MPJkh7JIk9TvWr3nsKtUAzA7SKu8lCiSVpJdUGAD8UFAbmw'
+                    'Authorization: Bearer A21AAI6KGGUoH3FAAKOrQHCxinTVX-xqaUqJa6mSuX4A5WIZdMsH8oHKEGe2B3O2PV5rRGaTjyxv2gYKkBJbd6rMKTZHJoSZg'
                   ),
             ));
 
@@ -66,7 +66,7 @@ class PaymentDetails extends Controller
                 CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
                 CURLOPT_CUSTOMREQUEST => 'GET',
                 CURLOPT_HTTPHEADER => array(
-                    'Authorization: Bearer A21AAL0rVDFu9_67GvDsZB5BvnRkwqPTvYeRQhqL2bPwUuari2MPJkh7JIk9TvWr3nsKtUAzA7SKu8lCiSVpJdUGAD8UFAbmw'
+                    'Authorization: Bearer A21AAI6KGGUoH3FAAKOrQHCxinTVX-xqaUqJa6mSuX4A5WIZdMsH8oHKEGe2B3O2PV5rRGaTjyxv2gYKkBJbd6rMKTZHJoSZg'
                   ),
             ));
 
