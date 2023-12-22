@@ -93,6 +93,12 @@ Route::get('cart_empty',[CartController::class,'fetch_data']);
 
 Route::get('fetch_data',[CartController::class,'remove_cart']);
 
+Route::get('remove_product',[CartController::class,'remove_single_cart']);
+
+Route::get('add_product',[CartController::class,'add_single_cart']);
+
+
+
 
 Route::get('/payment',function(){
     return view('payment_dashboard');

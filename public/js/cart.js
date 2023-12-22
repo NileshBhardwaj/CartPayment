@@ -1,11 +1,19 @@
 $(document).ready(function() {
-
+loaddata();
+});
+function loaddata(){    
     $.ajax({
         type: 'GET',
         url: '/cart_data',
         success: function(data) {
             console.log(data);
+            if ($.isEmptyObject(data)) {
+                console.log("The array is empty.");
+                $("#empty_cart").show();
+
+            }
             if (data != "") {
+               
                 $("#empty_cart").hide();
                 console.log(data);
                 var table = "<table id='id'>";
@@ -98,10 +106,51 @@ $(document).ready(function() {
                         success: function(response) {
                             console.log(response);
                             if(response){
-                                location.reload();
+                                loaddata();
                             }
                         }
                     })
+                })
+                $('.delete-button').on('click',function(){
+                  console.log("user clicked on it");
+                  var row = $(this).closest("tr");
+                  var id = row.find("td:eq(0)").text();
+
+                  $.ajax({
+                    type: 'get',
+                    data: {
+                       id:id,
+                    },
+                    url: 'remove_product',
+                    dataType: "json",
+                    success: function(response) {
+                        if(response){
+                            // const box = document.getElementById('main');
+                            
+                            loaddata();
+                        }
+                    }
+                })
+
+                })
+                
+                $('.edit-button').on('click',function(){
+                    var row = $(this).closest("tr");
+                    var id = row.find("td:eq(0)").text();
+  
+                    $.ajax({
+                      type: 'get',
+                      data: {
+                         id:id,
+                      },
+                      url: 'add_product',
+                      dataType: "json",
+                      success: function(response) {
+                          if(response){
+                              loaddata();
+                          }
+                      }
+                  })
                 })
 
             }
@@ -113,4 +162,4 @@ $(document).ready(function() {
 
     })
 
-});
+}

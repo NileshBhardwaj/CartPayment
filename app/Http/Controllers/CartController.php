@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Str;
 use Session;
+
 //i want to make the change
 class CartController extends Controller
 {
@@ -47,11 +48,58 @@ class CartController extends Controller
         return response()->json($get_cart);
 
     }
+    public function remove_single_cart(Request $request)
+    {
+        $id = $request->id;
+        $quan = $request->quantity;
+        $user = Auth::user()->id;
+        // dd($request->all());
+        if (isset($id)) {
+            $cart = Cart::where('product_id', $id)->where('user_id', $user)->first();
+
+            $quantity = $cart->quantity;
+
+            if ($quantity > 1) {
+                $updated_quantity = $quantity - 1;
+                $cart->quantity = $updated_quantity;
+                $cart->save();
+                return response()->json($cart);
+            } else {
+                $delete_row = Cart::where('user_id', $user)->where('product_id', $id)->delete();
+                return response()->json($cart);
+            }
+            // dd($quantity);
+
+        }
+    }
+    public function add_single_cart(Request $request)
+    {
+        $id = $request->id;
+        // dd($id);
+        $quan = $request->quantity;
+        $user = Auth::user()->id;
+        // dd($request->all());
+        if (isset($id)) {
+            // dd("skjdbkb");
+            $cart = Cart::where('product_id', $id)->where('user_id', $user)->first();
+
+            $quantity = $cart->quantity;
+
+            if ($quantity >= 1) {
+                $updated_quantity = $quantity + 1;
+                $cart->quantity = $updated_quantity;
+                $cart->save();
+                return response()->json($cart);
+            }
+            // dd($quantity);
+
+        }
+
+    }
 
     public function fetch_data(Request $request)
     {
         $order_id = Session::get('id');
-     
 
         //  dd($id); // Outputs: 2G909559AB4355042
 
@@ -63,7 +111,7 @@ class CartController extends Controller
         $response = Http::withHeaders([
             'Authorization' => 'Basic ' . $encoded_auth,
             'Content-Type' => 'application/json',
-        ])->get('https://api-m.sandbox.paypal.com/v2/checkout/orders/'.$order_id);
+        ])->get('https://api-m.sandbox.paypal.com/v2/checkout/orders/' . $order_id);
 
         // You can then use the response() method to get the response data
         $data = $response->json();
@@ -71,27 +119,22 @@ class CartController extends Controller
         // dd($data);
         return response()->json($data);
 
-        
     }
     public function remove_cart(Request $request)
     {
 
-        // dd($request->all());
-
         $id = $request->id;
         $quan = $request->quantity;
 
-        if(! empty($id && $quan))
-        {
+        if (!empty($id && $quan)) {
             $user = Auth::user()->id;
-            $delete_row = Cart::where('user_id', $user)->where('product_id',$id)->where('quantity',$quan)->delete();
+            $delete_row = Cart::where('user_id', $user)->where('product_id', $id)->where('quantity', $quan)->delete();
             return response()->json('removed');
 
-
         }
-        
+
         // $order_id = Session::get('id');
-      
+
         $user = Auth::user()->id;
         $get_cart = Cart::select('carts.*', 'products.price', 'products.name')
             ->join('products', 'carts.product_id', '=', 'products.id')
@@ -127,7 +170,6 @@ class CartController extends Controller
         $exist = Order::where('order_id', $request->order_id)->first();
         // dd($exist);
 
-
         if (isset($exist)) {
             // dd($exist);
             return response()->json(['message' => 'Payment already completed']);
@@ -139,15 +181,15 @@ class CartController extends Controller
                 'product_id' => $productId,
                 'quantity' => $quantity,
                 'price' => $price,
-                'order_id'=>$request->order_id,
-                
+                'order_id' => $request->order_id,
+
                 'status' => "paid",
             ]);
         }
-        
+
         $delete_row = Cart::where('user_id', $user)->delete();
-        // Session::flush(); 
+        // Session::flush();
         return response()->json('message');
-    
+
     }
 }
