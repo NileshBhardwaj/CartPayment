@@ -10,10 +10,11 @@ class PaymentDetails extends Controller
     public function fetch_payments(Request $request)
     {
 
+        // dd($request->all());
+
         $start_date = $request->start_date;
         $end_date = $request->end_date;
 
-        // dd($request->all());
 
         if ($start_date && $end_date) {
 
@@ -32,7 +33,7 @@ class PaymentDetails extends Controller
                 CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
                 CURLOPT_CUSTOMREQUEST => 'GET',
                 CURLOPT_HTTPHEADER => array(
-                    'Authorization: Bearer A21AAI6KGGUoH3FAAKOrQHCxinTVX-xqaUqJa6mSuX4A5WIZdMsH8oHKEGe2B3O2PV5rRGaTjyxv2gYKkBJbd6rMKTZHJoSZg'
+                    'Authorization: Bearer A21AALQ4pVhrPnQ5njvrWk8m3zmZSkIRgxmJjel5qM0I5BpP6GTF69gZOpjBW3eF-L3o4t7ee9ZpL6RINW27DVLFpmcmbEKtg'
                   ),
             ));
 
@@ -66,7 +67,7 @@ class PaymentDetails extends Controller
                 CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
                 CURLOPT_CUSTOMREQUEST => 'GET',
                 CURLOPT_HTTPHEADER => array(
-                    'Authorization: Bearer A21AAI6KGGUoH3FAAKOrQHCxinTVX-xqaUqJa6mSuX4A5WIZdMsH8oHKEGe2B3O2PV5rRGaTjyxv2gYKkBJbd6rMKTZHJoSZg'
+                    'Authorization: Bearer A21AALQ4pVhrPnQ5njvrWk8m3zmZSkIRgxmJjel5qM0I5BpP6GTF69gZOpjBW3eF-L3o4t7ee9ZpL6RINW27DVLFpmcmbEKtg'
                   ),
             ));
 

@@ -75,8 +75,9 @@ return view('/dashboard',compact('users'));
 });
 
 Route::get('/products',function(){
+    // dd(Auth::User());
     $product = Product::all();
-
+// dd($product);
    return view('products',compact('product')); 
 })->name('products');
 

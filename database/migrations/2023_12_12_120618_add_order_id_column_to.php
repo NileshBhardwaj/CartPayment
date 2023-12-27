@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::table('orders', function (Blueprint $table) {
             //
-            $table->string("order_id");
-            $table->biginteger("payee_id");
+            $table->string("order_id")->nullable();
+            $table->biginteger("payee_id")->nullable();
         
         });
     }
