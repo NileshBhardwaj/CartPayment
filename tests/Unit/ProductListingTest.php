@@ -61,27 +61,33 @@ class ProductListingTest extends TestCase
     public function test_product_added_to_cart_are_on_the_cart_page()
     {
         $admin = User::find(1);
-        $cart_data1 = Cart::create([
-            "user_id" => 1,
-            "product_id" => 1,
-            "quantity" => 4,
+        Cart::create([
+            'user_id' => 1,
+            'product_id' => 1,
+            'quantity' => 1,
         ]);
-        $cart_data2 = Cart::create([
-            "user_id" => 1,
-            "product_id" => 2,
-            "quantity" => 4,
+        Cart::create([
+            'user_id' => 1,
+            'product_id' => 2,
+            'quantity' => 1,
         ]);
+        Cart::create([
+            'user_id' => 1,
+            'product_id' => 3,
+            'quantity' => 1,
+        ]);
+        $cart_data = Cart::all();
 
         $response = $this->actingAs($admin)->get('/cart_data');
         $response->assertStatus(200);
         $data = $response->json();
-        $cart_data_ids = [$cart_data1->id, $cart_data2->id];
-        $cart_data_product_id = [$cart_data1->product_id, $cart_data2->product_id];
-        $cart_data_user_id = [$cart_data1->user_id, $cart_data2->user_id];
-        foreach ($data as $value) {
-            $this->assertContains($value['id'], $cart_data_ids);
-            $this->assertContains($value['user_id'], $cart_data_user_id);
-            $this->assertContains($value['product_id'], $cart_data_product_id);
+
+        foreach ($cart_data as $index => $info) {
+            // echo $index . ": " . $info .; 
+            $this->assertEquals($info['id'], $data[$index]['id']);
+            $this->assertEquals($info['user_id'], $data[$index]['user_id']);
+            $this->assertEquals($info['quantity'], $data[$index]['quantity']);
+
         }
     }
 
