@@ -16,16 +16,19 @@ class CartController extends Controller
     //
     public function add_to_cart(Request $request)
     {
-
+        // dd($request->all());
         $cart_get = Cart::where('product_id', $request->id)
             ->where('user_id', $request->user_id)
             ->first();
+        // dd($cart_get);    
 
         if ($cart_get) {
+           
             // If the product and user ID already exist in the cart, increase the quantity
             $cart_get->quantity += $request->quantity;
             $cart_get->save();
         } else {
+            // dd("dfvdfv");
             // If not, create a new entry
             $product = Cart::create([
                 'user_id' => $request->user_id,
@@ -44,7 +47,6 @@ class CartController extends Controller
         $get_cart = Cart::select('carts.*', 'products.price', 'products.name')
             ->join('products', 'carts.product_id', '=', 'products.id')
             ->where('user_id', $user)->get();
-
         return response()->json($get_cart);
 
     }

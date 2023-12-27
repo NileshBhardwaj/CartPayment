@@ -1,0 +1,5354 @@
+{
+    "transaction_details": [
+        {
+            "transaction_info": {
+                "transaction_id": "9BN51716ES1654107",
+                "transaction_event_code": "T1900",
+                "transaction_initiation_date": "2023-12-08T05:37:55+0000",
+                "transaction_updated_date": "2023-12-08T05:37:55+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "5000.00"
+                },
+                "transaction_status": "S",
+                "transaction_subject": "Initial balance",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "5000.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "5000.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": [],
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "09W47319EG217923F",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-08T05:37:55+0000",
+                "transaction_updated_date": "2023-12-08T05:37:55+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-5000.00"
+                },
+                "transaction_status": "S",
+                "transaction_subject": "Initial balance",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": [],
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "8P90132498714384S",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-08T06:35:30+0000",
+                "transaction_updated_date": "2023-12-08T06:35:30+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "100.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-3.98"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "96.02"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "96.02"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "100.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "100.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "100.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "8VP071900K758830W",
+                "paypal_reference_id": "8P90132498714384S",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-08T06:35:30+0000",
+                "transaction_updated_date": "2023-12-08T06:35:30+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-96.02"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "0VN23612AR504170P",
+                "paypal_reference_id": "49818834K8186370A",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2001",
+                "transaction_initiation_date": "2023-12-08T13:10:29+0000",
+                "transaction_updated_date": "2023-12-08T13:10:29+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "5096.02"
+                },
+                "transaction_status": "S",
+                "transaction_subject": "FLAVORsb-mnlme28649302_eeb543aaa6b691b1eb3b8ce41de47b3bUSD121836801870140944",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "5096.02"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "5096.02"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": [],
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "49818834K8186370A",
+                "transaction_event_code": "T0400",
+                "transaction_initiation_date": "2023-12-08T13:10:29+0000",
+                "transaction_updated_date": "2023-12-08T13:10:29+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-5096.02"
+                },
+                "transaction_status": "S",
+                "transaction_subject": "FLAVORsb-mnlme28649302_eeb543aaa6b691b1eb3b8ce41de47b3bUSD121836801870140944",
+                "bank_reference_id": "1000273709716",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": [],
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "2PX85930PE768704E",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-11T04:57:02+0000",
+                "transaction_updated_date": "2023-12-11T04:57:02+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "94.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-3.77"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "90.23"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "90.23"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "94.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "94.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "94.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "2LH82863T2198352W",
+                "paypal_reference_id": "2PX85930PE768704E",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-11T04:57:02+0000",
+                "transaction_updated_date": "2023-12-11T04:57:02+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-90.23"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "3T449290T8865114X",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-11T05:00:03+0000",
+                "transaction_updated_date": "2023-12-11T05:00:03+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "94.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-3.77"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "90.23"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "90.23"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "94.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "94.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "94.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "1447997719312451H",
+                "paypal_reference_id": "3T449290T8865114X",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-11T05:00:03+0000",
+                "transaction_updated_date": "2023-12-11T05:00:03+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-90.23"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "3J222713W1305911Y",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-11T05:40:54+0000",
+                "transaction_updated_date": "2023-12-11T05:40:54+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "404.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-14.59"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "389.41"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "389.41"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "404.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "404.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "404.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "5D218176B6608750A",
+                "paypal_reference_id": "3J222713W1305911Y",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-11T05:40:54+0000",
+                "transaction_updated_date": "2023-12-11T05:40:54+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-389.41"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "63U24568R42677234",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-11T07:12:12+0000",
+                "transaction_updated_date": "2023-12-11T07:12:12+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "404.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-14.59"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "389.41"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "389.41"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "404.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "404.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "404.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "08L29642U9314033S",
+                "paypal_reference_id": "63U24568R42677234",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-11T07:12:12+0000",
+                "transaction_updated_date": "2023-12-11T07:12:12+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-389.41"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "51U84406A4582145K",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-11T07:13:41+0000",
+                "transaction_updated_date": "2023-12-11T07:13:41+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "404.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-14.59"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "389.41"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "389.41"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "404.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "404.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "404.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "9U473726RD792261W",
+                "paypal_reference_id": "51U84406A4582145K",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-11T07:13:41+0000",
+                "transaction_updated_date": "2023-12-11T07:13:41+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-389.41"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "0LK91571U0876825X",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-11T07:32:27+0000",
+                "transaction_updated_date": "2023-12-11T07:32:27+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "404.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-14.59"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "389.41"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "389.41"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "404.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "404.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "404.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "3W149818X0454183E",
+                "paypal_reference_id": "0LK91571U0876825X",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-11T07:32:27+0000",
+                "transaction_updated_date": "2023-12-11T07:32:27+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-389.41"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "0U697484M47343727",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-11T09:53:14+0000",
+                "transaction_updated_date": "2023-12-11T09:53:14+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "201.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-7.50"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "193.50"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "193.50"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "201.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "201.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "201.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "1R91375848800962V",
+                "paypal_reference_id": "0U697484M47343727",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-11T09:53:14+0000",
+                "transaction_updated_date": "2023-12-11T09:53:14+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-193.50"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "5YV50715HG469792H",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-11T10:03:10+0000",
+                "transaction_updated_date": "2023-12-11T10:03:10+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "85.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-3.46"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "81.54"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "81.54"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "1EG03029XX411870P",
+                "paypal_reference_id": "5YV50715HG469792H",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-11T10:03:10+0000",
+                "transaction_updated_date": "2023-12-11T10:03:10+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-81.54"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "4V1543781R5517035",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-11T10:25:42+0000",
+                "transaction_updated_date": "2023-12-11T10:25:42+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "245.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-9.04"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "235.96"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "235.96"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "245.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "245.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "245.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "4CM318775J612541N",
+                "paypal_reference_id": "4V1543781R5517035",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-11T10:25:42+0000",
+                "transaction_updated_date": "2023-12-11T10:25:42+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-235.96"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "85M31345YP569352L",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-11T10:38:56+0000",
+                "transaction_updated_date": "2023-12-11T10:38:56+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "245.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-9.04"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "235.96"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "235.96"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "245.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "245.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "245.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "3XY71862XW3303416",
+                "paypal_reference_id": "85M31345YP569352L",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-11T10:38:56+0000",
+                "transaction_updated_date": "2023-12-11T10:38:56+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-235.96"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "8BV44489CV1268922",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-11T10:56:28+0000",
+                "transaction_updated_date": "2023-12-11T10:56:28+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "35.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-1.71"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "33.29"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "33.29"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "35.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "35.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "35.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "77H7416039570981N",
+                "paypal_reference_id": "8BV44489CV1268922",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-11T10:56:28+0000",
+                "transaction_updated_date": "2023-12-11T10:56:28+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-33.29"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "6VS895665F962991A",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-11T10:58:57+0000",
+                "transaction_updated_date": "2023-12-11T10:58:57+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "94.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-3.77"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "90.23"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "90.23"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "94.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "94.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "94.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "9BX93860N5230380P",
+                "paypal_reference_id": "6VS895665F962991A",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-11T10:58:57+0000",
+                "transaction_updated_date": "2023-12-11T10:58:57+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-90.23"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "9A7835722L034442H",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-11T11:06:18+0000",
+                "transaction_updated_date": "2023-12-11T11:06:18+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "417.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-15.04"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "401.96"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "401.96"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "417.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "417.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "417.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "3VU6634161642892V",
+                "paypal_reference_id": "9A7835722L034442H",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-11T11:06:18+0000",
+                "transaction_updated_date": "2023-12-11T11:06:18+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-401.96"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "6DX89589WC4298726",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-11T11:21:59+0000",
+                "transaction_updated_date": "2023-12-11T11:21:59+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "417.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-15.04"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "401.96"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "401.96"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "417.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "417.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "417.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "1H8041148M046835N",
+                "paypal_reference_id": "6DX89589WC4298726",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-11T11:21:59+0000",
+                "transaction_updated_date": "2023-12-11T11:21:59+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-401.96"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "338553958W872560R",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-11T12:09:40+0000",
+                "transaction_updated_date": "2023-12-11T12:09:40+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "35.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-1.71"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "33.29"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "33.29"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "35.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "35.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "35.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "42962587U7696310N",
+                "paypal_reference_id": "338553958W872560R",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-11T12:09:40+0000",
+                "transaction_updated_date": "2023-12-11T12:09:40+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-33.29"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "8LE47928BL466780B",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-11T13:40:58+0000",
+                "transaction_updated_date": "2023-12-11T13:40:58+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "796.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-28.27"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "767.73"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "767.73"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "796.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "796.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "796.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "1BE01472SV742022E",
+                "paypal_reference_id": "8LE47928BL466780B",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-11T13:40:58+0000",
+                "transaction_updated_date": "2023-12-11T13:40:58+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-767.73"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "3VG32189PP264762X",
+                "paypal_reference_id": "3SD69607U0683490H",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2001",
+                "transaction_initiation_date": "2023-12-11T20:09:12+0000",
+                "transaction_updated_date": "2023-12-11T20:09:12+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "1738.10"
+                },
+                "transaction_status": "S",
+                "transaction_subject": "FLAVORsb-mnlme28649302_eeb543aaa6b691b1eb3b8ce41de47b3bUSD121857125655386181",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "1738.10"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "1738.10"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": [],
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "3SD69607U0683490H",
+                "transaction_event_code": "T0400",
+                "transaction_initiation_date": "2023-12-11T20:09:12+0000",
+                "transaction_updated_date": "2023-12-11T20:09:12+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-1738.10"
+                },
+                "transaction_status": "S",
+                "transaction_subject": "FLAVORsb-mnlme28649302_eeb543aaa6b691b1eb3b8ce41de47b3bUSD121857125655386181",
+                "bank_reference_id": "1000274193913",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": [],
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "9RY01823YS810261Y",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T04:31:34+0000",
+                "transaction_updated_date": "2023-12-12T04:31:34+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "295.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-10.79"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "284.21"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "284.21"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "295.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "295.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "295.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "2TM93683VA279551A",
+                "paypal_reference_id": "9RY01823YS810261Y",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T04:31:34+0000",
+                "transaction_updated_date": "2023-12-12T04:31:34+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-284.21"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "11V095956T990122Y",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T06:10:46+0000",
+                "transaction_updated_date": "2023-12-12T06:10:46+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "85.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-3.46"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "81.54"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "81.54"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "5BN52359LY4169840",
+                "paypal_reference_id": "11V095956T990122Y",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T06:10:46+0000",
+                "transaction_updated_date": "2023-12-12T06:10:46+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-81.54"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "1TJ09202YY0834230",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T06:46:07+0000",
+                "transaction_updated_date": "2023-12-12T06:46:07+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "56.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-2.44"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "53.56"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "53.56"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "56.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "56.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "56.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "9GJ57569T9685664P",
+                "paypal_reference_id": "1TJ09202YY0834230",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T06:46:07+0000",
+                "transaction_updated_date": "2023-12-12T06:46:07+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-53.56"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "9XN43345UD510682L",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T07:38:47+0000",
+                "transaction_updated_date": "2023-12-12T07:38:47+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "282.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-10.33"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "271.67"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "271.67"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "282.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "282.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "282.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "6RK50427M7393183N",
+                "paypal_reference_id": "9XN43345UD510682L",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T07:38:47+0000",
+                "transaction_updated_date": "2023-12-12T07:38:47+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-271.67"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "C7CYMKZDG8D6E",
+                "transaction_id": "136891331D688111T",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T08:43:42+0000",
+                "transaction_updated_date": "2023-12-12T08:43:42+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-100.00"
+                },
+                "transaction_status": "S",
+                "transaction_subject": "Green XL",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "-100.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "-100.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "account_id": "C7CYMKZDG8D6E",
+                "email_address": "john_merchant@example.com",
+                "address_status": "Y",
+                "payer_status": "Y",
+                "payer_name": {
+                    "alternate_full_name": "John Merchant's Test Store"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_name": "T-Shirt",
+                        "item_description": "Green XL",
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "100.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "100.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "100.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "7JF3487637285680W",
+                "paypal_reference_id": "136891331D688111T",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T0300",
+                "transaction_initiation_date": "2023-12-12T08:43:42+0000",
+                "transaction_updated_date": "2023-12-12T08:43:42+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "100.00"
+                },
+                "transaction_status": "S",
+                "bank_reference_id": "1000274253328",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_name": "T-Shirt",
+                        "item_description": "Green XL",
+                        "item_quantity": "1.000",
+                        "tax_percentage": "0"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "1G963334LF791305K",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T08:53:59+0000",
+                "transaction_updated_date": "2023-12-12T08:53:59+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "85.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-3.46"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "81.54"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "81.54"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "1NY51202HU232933R",
+                "paypal_reference_id": "1G963334LF791305K",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T08:53:59+0000",
+                "transaction_updated_date": "2023-12-12T08:53:59+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-81.54"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "3SU802186C2708031",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T09:00:26+0000",
+                "transaction_updated_date": "2023-12-12T09:00:26+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "85.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-3.46"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "81.54"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "81.54"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "9TD84981T8209440H",
+                "paypal_reference_id": "3SU802186C2708031",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T09:00:26+0000",
+                "transaction_updated_date": "2023-12-12T09:00:26+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-81.54"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "3FH939413F734734G",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T09:01:00+0000",
+                "transaction_updated_date": "2023-12-12T09:01:00+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "85.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-3.46"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "81.54"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "81.54"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "80L48637KR345635K",
+                "paypal_reference_id": "3FH939413F734734G",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T09:01:00+0000",
+                "transaction_updated_date": "2023-12-12T09:01:00+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-81.54"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "3MG7726922599910K",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T09:19:05+0000",
+                "transaction_updated_date": "2023-12-12T09:19:05+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "56.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-2.44"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "53.56"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "53.56"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "56.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "56.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "56.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "7RK416909C711840K",
+                "paypal_reference_id": "3MG7726922599910K",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T09:19:05+0000",
+                "transaction_updated_date": "2023-12-12T09:19:05+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-53.56"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "35R65591KK063635A",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T09:36:41+0000",
+                "transaction_updated_date": "2023-12-12T09:36:41+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "56.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-2.44"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "53.56"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "53.56"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "56.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "56.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "56.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "0S330765AK385952L",
+                "paypal_reference_id": "35R65591KK063635A",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T09:36:41+0000",
+                "transaction_updated_date": "2023-12-12T09:36:41+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-53.56"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "2RE48230879837028",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T10:40:06+0000",
+                "transaction_updated_date": "2023-12-12T10:40:06+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "56.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-2.44"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "53.56"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "53.56"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "56.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "56.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "56.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "2SN41576UF3018338",
+                "paypal_reference_id": "2RE48230879837028",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T10:40:06+0000",
+                "transaction_updated_date": "2023-12-12T10:40:06+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-53.56"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "2M278050TT2969415",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T10:52:15+0000",
+                "transaction_updated_date": "2023-12-12T10:52:15+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "56.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-2.44"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "53.56"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "53.56"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "56.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "56.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "56.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "28245348G14817003",
+                "paypal_reference_id": "2M278050TT2969415",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T10:52:15+0000",
+                "transaction_updated_date": "2023-12-12T10:52:15+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-53.56"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "9MR344927N8350530",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T11:51:11+0000",
+                "transaction_updated_date": "2023-12-12T11:51:11+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "56.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-2.44"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "53.56"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "53.56"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "56.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "56.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "56.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "8FN87116TW9428600",
+                "paypal_reference_id": "9MR344927N8350530",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T11:51:11+0000",
+                "transaction_updated_date": "2023-12-12T11:51:11+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-53.56"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "51050704W59613141",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T12:16:19+0000",
+                "transaction_updated_date": "2023-12-12T12:16:19+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "141.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-5.41"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "135.59"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "135.59"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "141.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "141.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "141.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "3SA50880Y7528094B",
+                "paypal_reference_id": "51050704W59613141",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T12:16:19+0000",
+                "transaction_updated_date": "2023-12-12T12:16:19+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-135.59"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "65W22249VF5852630",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T12:26:45+0000",
+                "transaction_updated_date": "2023-12-12T12:26:45+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "56.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-2.44"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "53.56"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "53.56"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "56.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "56.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "56.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "9PB26823R0340893S",
+                "paypal_reference_id": "65W22249VF5852630",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T12:26:45+0000",
+                "transaction_updated_date": "2023-12-12T12:26:45+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-53.56"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "00R32658GA553571H",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T12:29:38+0000",
+                "transaction_updated_date": "2023-12-12T12:29:38+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "85.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-3.46"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "81.54"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "81.54"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "7K672114GE820570D",
+                "paypal_reference_id": "00R32658GA553571H",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T12:29:38+0000",
+                "transaction_updated_date": "2023-12-12T12:29:38+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-81.54"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "34X09050YP016873U",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T12:30:47+0000",
+                "transaction_updated_date": "2023-12-12T12:30:47+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "120.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-4.68"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "115.32"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "115.32"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "120.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "120.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "120.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "0C446712AX609871F",
+                "paypal_reference_id": "34X09050YP016873U",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T12:30:47+0000",
+                "transaction_updated_date": "2023-12-12T12:30:47+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-115.32"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "5GK68567J2120730P",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T12:36:56+0000",
+                "transaction_updated_date": "2023-12-12T12:36:56+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "141.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-5.41"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "135.59"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "135.59"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "141.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "141.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "141.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "95425795753074815",
+                "paypal_reference_id": "5GK68567J2120730P",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T12:36:56+0000",
+                "transaction_updated_date": "2023-12-12T12:36:56+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-135.59"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "7VP2133838918634F",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T12:38:47+0000",
+                "transaction_updated_date": "2023-12-12T12:38:47+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "226.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-8.38"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "217.62"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "217.62"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "226.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "226.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "226.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "3CE340054E330123L",
+                "paypal_reference_id": "7VP2133838918634F",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T12:38:47+0000",
+                "transaction_updated_date": "2023-12-12T12:38:47+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-217.62"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "727286132B669731P",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T12:47:30+0000",
+                "transaction_updated_date": "2023-12-12T12:47:30+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "354.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-12.84"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "341.16"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "341.16"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "354.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "354.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "354.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "9DE06383RA1779906",
+                "paypal_reference_id": "727286132B669731P",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T12:47:30+0000",
+                "transaction_updated_date": "2023-12-12T12:47:30+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-341.16"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "2D158258F9833790P",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T12:52:31+0000",
+                "transaction_updated_date": "2023-12-12T12:52:31+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "126.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-4.89"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "121.11"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "121.11"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "126.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "126.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "126.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "12J34768VA278931L",
+                "paypal_reference_id": "2D158258F9833790P",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T12:52:31+0000",
+                "transaction_updated_date": "2023-12-12T12:52:31+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-121.11"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "9D015004LN1087610",
+                "paypal_reference_id": "0B301411W9125522P",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2001",
+                "transaction_initiation_date": "2023-12-12T13:11:25+0000",
+                "transaction_updated_date": "2023-12-12T13:11:25+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "3166.40"
+                },
+                "transaction_status": "S",
+                "transaction_subject": "FLAVORsb-mnlme28649302_eeb543aaa6b691b1eb3b8ce41de47b3bUSD121861540881766691",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "3166.40"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "3166.40"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": [],
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "0B301411W9125522P",
+                "transaction_event_code": "T0400",
+                "transaction_initiation_date": "2023-12-12T13:11:25+0000",
+                "transaction_updated_date": "2023-12-12T13:11:25+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-3166.40"
+                },
+                "transaction_status": "S",
+                "transaction_subject": "FLAVORsb-mnlme28649302_eeb543aaa6b691b1eb3b8ce41de47b3bUSD121861540881766691",
+                "bank_reference_id": "1000274311022",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": [],
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "5EC54009KP671153H",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T13:17:05+0000",
+                "transaction_updated_date": "2023-12-12T13:17:05+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "141.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-5.41"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "135.59"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "135.59"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "141.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "141.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "141.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "99F28156PJ1147427",
+                "paypal_reference_id": "5EC54009KP671153H",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T13:17:05+0000",
+                "transaction_updated_date": "2023-12-12T13:17:05+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-135.59"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "9UG83493WY851805W",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T13:20:01+0000",
+                "transaction_updated_date": "2023-12-12T13:20:01+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "85.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-3.46"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "81.54"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "81.54"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "5TA88763HF765193S",
+                "paypal_reference_id": "9UG83493WY851805W",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T13:20:01+0000",
+                "transaction_updated_date": "2023-12-12T13:20:01+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-81.54"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "6D3713570L433672C",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T13:24:32+0000",
+                "transaction_updated_date": "2023-12-12T13:24:32+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "126.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-4.89"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "121.11"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "121.11"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "126.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "126.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "126.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "2X14307068373522R",
+                "paypal_reference_id": "6D3713570L433672C",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T13:24:32+0000",
+                "transaction_updated_date": "2023-12-12T13:24:32+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-121.11"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "09M53473Y35565418",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-12T13:25:13+0000",
+                "transaction_updated_date": "2023-12-12T13:25:13+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "126.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-4.89"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "121.11"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "121.11"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "126.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "126.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "126.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "90E34363M5305023L",
+                "paypal_reference_id": "09M53473Y35565418",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-12T13:25:13+0000",
+                "transaction_updated_date": "2023-12-12T13:25:13+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-121.11"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "7YB0588826259054L",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-13T06:42:43+0000",
+                "transaction_updated_date": "2023-12-13T06:42:43+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "232.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-8.59"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "223.41"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "223.41"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "232.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "232.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "232.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "60X64648KL553920M",
+                "paypal_reference_id": "7YB0588826259054L",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-13T06:42:43+0000",
+                "transaction_updated_date": "2023-12-13T06:42:43+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-223.41"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "0D289762TD9774638",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-13T09:23:54+0000",
+                "transaction_updated_date": "2023-12-13T09:23:54+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "3433.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-120.30"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "3312.70"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "3312.70"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "John",
+                    "surname": "Doe",
+                    "alternate_full_name": "John Doe"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "John, Doe",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "3433.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "3433.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "3433.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "6SU042086X088341V",
+                "paypal_reference_id": "0D289762TD9774638",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-13T09:23:54+0000",
+                "transaction_updated_date": "2023-12-13T09:23:54+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-3312.70"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "5KF10300ER8612743",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-13T10:26:07+0000",
+                "transaction_updated_date": "2023-12-13T10:26:07+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "85.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-3.46"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "81.54"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "81.54"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "Nilesh",
+                    "surname": "Bhardwaj",
+                    "alternate_full_name": "Nilesh Bhardwaj"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "Nilesh, Bhardwaj",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "85.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "5TF34203NV1837527",
+                "paypal_reference_id": "5KF10300ER8612743",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-13T10:26:07+0000",
+                "transaction_updated_date": "2023-12-13T10:26:07+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-81.54"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "paypal_account_id": "HLDWQ46W6CZRW",
+                "transaction_id": "1SJ432522J017761K",
+                "transaction_event_code": "T0006",
+                "transaction_initiation_date": "2023-12-13T10:33:53+0000",
+                "transaction_updated_date": "2023-12-13T10:33:53+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "245.00"
+                },
+                "fee_amount": {
+                    "currency_code": "USD",
+                    "value": "-9.04"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "235.96"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "235.96"
+                },
+                "protection_eligibility": "01"
+            },
+            "payer_info": {
+                "account_id": "HLDWQ46W6CZRW",
+                "email_address": "sb-omkgn28649513@personal.example.com",
+                "address_status": "Y",
+                "payer_status": "N",
+                "payer_name": {
+                    "given_name": "Nilesh",
+                    "surname": "Bhardwaj",
+                    "alternate_full_name": "Nilesh Bhardwaj"
+                },
+                "country_code": "US"
+            },
+            "shipping_info": {
+                "name": "Nilesh, Bhardwaj",
+                "address": {
+                    "line1": "1 Main St",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "country_code": "US",
+                    "postal_code": "95131"
+                }
+            },
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1",
+                        "item_unit_price": {
+                            "currency_code": "USD",
+                            "value": "245.00"
+                        },
+                        "item_amount": {
+                            "currency_code": "USD",
+                            "value": "245.00"
+                        },
+                        "total_item_amount": {
+                            "currency_code": "USD",
+                            "value": "245.00"
+                        }
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        },
+        {
+            "transaction_info": {
+                "transaction_id": "9GG18717HW888892T",
+                "paypal_reference_id": "1SJ432522J017761K",
+                "paypal_reference_id_type": "TXN",
+                "transaction_event_code": "T2002",
+                "transaction_initiation_date": "2023-12-13T10:33:53+0000",
+                "transaction_updated_date": "2023-12-13T10:33:53+0000",
+                "transaction_amount": {
+                    "currency_code": "USD",
+                    "value": "-235.96"
+                },
+                "transaction_status": "S",
+                "ending_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "available_balance": {
+                    "currency_code": "USD",
+                    "value": "0.00"
+                },
+                "protection_eligibility": "02"
+            },
+            "payer_info": {
+                "address_status": "N",
+                "payer_name": []
+            },
+            "shipping_info": [],
+            "cart_info": {
+                "item_details": [
+                    {
+                        "item_quantity": "1.000"
+                    }
+                ]
+            },
+            "store_info": [],
+            "auction_info": [],
+            "incentive_info": []
+        }
+    ],
+    "account_number": "XHYXJ9GMKS5EJ",
+    "start_date": "2023-12-01T00:00:00+0000",
+    "end_date": "2023-12-20T00:00:00+0000",
+    "last_refreshed_datetime": "2023-12-22T09:59:59+0000",
+    "page": 1,
+    "total_items": 108,
+    "total_pages": 2,
+    "links": [
+        {
+            "href": "https:\/\/api.sandbox.paypal.com\/v1\/reporting\/transactions?end_date=2023-12-20T00%3A00%3A00.000Z&start_date=2023-12-01T00%3A00%3A00.000Z&fields=transaction_info%2Cpayer_info%2Cshipping_info%2Cauction_info%2Ccart_info%2Cincentive_info%2Cstore_info&page_size=100&page=2",
+            "rel": "last",
+            "method": "GET"
+        },
+        {
+            "href": "https:\/\/api.sandbox.paypal.com\/v1\/reporting\/transactions?end_date=2023-12-20T00%3A00%3A00.000Z&start_date=2023-12-01T00%3A00%3A00.000Z&fields=transaction_info%2Cpayer_info%2Cshipping_info%2Cauction_info%2Ccart_info%2Cincentive_info%2Cstore_info&page_size=100&page=2",
+            "rel": "next",
+            "method": "GET"
+        },
+        {
+            "href": "https:\/\/api.sandbox.paypal.com\/v1\/reporting\/transactions?end_date=2023-12-20T00%3A00%3A00.000Z&start_date=2023-12-01T00%3A00%3A00.000Z&fields=transaction_info%2Cpayer_info%2Cshipping_info%2Cauction_info%2Ccart_info%2Cincentive_info%2Cstore_info&page_size=100&page=1",
+            "rel": "self",
+            "method": "GET"
+        }
+    ]
+}
