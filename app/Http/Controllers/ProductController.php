@@ -9,7 +9,9 @@ class ProductController extends Controller
 {
     //
     public function fetch_product(){
+        // dd("igcsdvc");
         $product = Product::all();
-        return view('/user',compact('product')); 
+        // dd($product);
+        return view('products',compact('product')); 
     }
 }
