@@ -4,6 +4,7 @@ namespace Tests;
 
 use App\Models\User;
 use App\Models\Product;
+use App\Models\Cart;
 
 use Hash;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -35,7 +36,7 @@ abstract class TestCase extends BaseTestCase
         // Assign the 'admin' role to the user
         $this->admin->assignRole('admin'); // Modify this line
 
-        $product = Product::create([
+        $product1 = Product::create([
             'id' => 1,
             'name' => "Dummy Product",
             'description' => "Good Product",
@@ -44,6 +45,38 @@ abstract class TestCase extends BaseTestCase
             'price'=>"50",
             'image' => "image.jpg",
         ]);
+        
+        $product2 = Product::create([
+            'id' => 2,
+            'name' => "Product",
+            'description' => "Good Product",
+            'category_id' => "2",
+            'quantity' => "1",
+            'price'=>"50",
+            'image' => "image.jpg",
+        ]);
+        $product3 = Product::create([
+            'id' => 3,
+            'name' => "Dummy Product",
+            'description' => "Good Product",
+            'category_id' => "2",
+            'quantity' => "1",
+            'price'=>"50",
+            'image' => "image.jpg",
+        ]);
+        
+        $product4 = Product::create([
+            'id' => 4,
+            'name' => "Product",
+            'description' => "Good Product",
+            'category_id' => "2",
+            'quantity' => "1",
+            'price'=>"50",
+            'image' => "image.jpg",
+        ]);
+
+       
+
     }
 
     // public function login()

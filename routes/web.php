@@ -74,21 +74,16 @@ Route::post('/ajax',function(){
 return view('/dashboard',compact('users'));
 });
 
-Route::get('/products',function(){
-    // dd(Auth::User());
-    $product = Product::all();
-// dd($product);
-   return view('products',compact('product')); 
-})->name('products');
+Route::get('/products',[ProductController::class,'fetch_product'])->middleware(['auth', 'verified'])->name('products');
 
-Route::post('/shop/addtocart',[CartController::class,'add_to_cart']);
+Route::post('/shop/addtocart',[CartController::class,'add_to_cart'])->middleware(['auth', 'verified']);
 
 Route::get('/cart_data',[CartController::class,'user_cart']);
 
-Route::get('/cart',function(){
+Route::get('/cart',['middleware' => ['auth', 'verified'],function(){
     
     return view('cart');
-})->name('cart');
+}])->name('cart');
 
 Route::get('cart_empty',[CartController::class,'fetch_data']);
 
